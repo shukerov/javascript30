@@ -1,0 +1,11 @@
+.keys {
+   display: flex;
+   justify-content: center;
+}
+
+.key {
+   margin: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
