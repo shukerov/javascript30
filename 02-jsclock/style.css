@@ -15,6 +15,16 @@ body {
   align-items: center;
 }
 
+.circle {
+   width: 1.5rem;
+   height: 1.5rem;
+   background: black;
+   position: absolute;
+   border-radius: 50%;
+   top: 48.5%;
+   left: 47.5%
+}
+
 .clock {
   width: 30rem;
   height: 30rem;
