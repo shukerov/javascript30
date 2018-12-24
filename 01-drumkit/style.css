@@ -1,11 +1,52 @@
 .keys {
    display: flex;
-   justify-content: center;
+   margin: auto;
 }
 
 .key {
-   margin: 5px;
+   margin: 10px;
    display: flex;
    flex-direction: column;
-   justify-content: space-around;
+   border: .2rem solid black;
+   border-radius: .5rem;
+   font-size: 1.5rem;
+   padding: 1rem .5rem;
+   transition: all .07s ease;
+   width: 6.5rem;
+   text-align: center;
+   color: white;
+   background: rgba(0,0,0,0.4);
+   text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+kbd {
+   margin: auto;
+}
+
+html {
+   height: 100%;
+   background: url(https://www.slashfilm.com/wp/wp-content/images/bohemian-rhapsody-featurette.jpg) no-repeat center center fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+
+body {
+   display: flex;
+   align-items: center;
+   max-height: 100%;
 }
